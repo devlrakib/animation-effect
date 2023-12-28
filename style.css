@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.spiner{
+    background-color: orangered;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-top: 20px solid indigo;
+    animation: ani 2.5s linear infinite;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
